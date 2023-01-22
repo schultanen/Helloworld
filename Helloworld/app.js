@@ -1,5 +1,5 @@
 const http = require('http');
-const hostname = 'localhost';
+const hostname = 'your_public_ip_address';
 const port = 8080;
 
 const server = http.createServer((req, res) => {
